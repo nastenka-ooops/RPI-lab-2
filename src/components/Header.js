@@ -36,7 +36,7 @@ const Header = () => {
                     <NavbarCollapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             <NavLink as={Link} to="/">{t("header.title")}</NavLink>
-                            <NavLink as={Link} to="/Person">{t("header.thieves")}</NavLink>
+                            <NavLink as={Link} to="/thieves">{t("header.thieves")}</NavLink>
                         </Nav>
                         <Nav>
                             <NavDropdown align="end" title={t("header.language")} id="dropdown-menu-align-end">
