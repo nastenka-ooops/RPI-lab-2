@@ -12,7 +12,6 @@ import logo from './logo.png'
 import {useTranslation} from 'react-i18next';
 import i18n from "../i18n";
 import { Link } from "react-router-dom"
-import {render} from "react-dom";
 
 const Header = () => {
     const {t} = useTranslation();
@@ -20,7 +19,6 @@ const Header = () => {
         i18n.changeLanguage(language);
     }
 
-    //render()
     {
         return (
             <Navbar collapseOnSelect bg="dark" variant="dark">
@@ -38,7 +36,7 @@ const Header = () => {
                     <NavbarCollapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             <NavLink as={Link} to="/">{t("header.title")}</NavLink>
-                            <NavLink as={Link} to="/Thieves">{t("header.thieves")}</NavLink>
+                            <NavLink as={Link} to="/Person">{t("header.thieves")}</NavLink>
                         </Nav>
                         <Nav>
                             <NavDropdown align="end" title={t("header.language")} id="dropdown-menu-align-end">

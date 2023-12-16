@@ -1,0 +1,110 @@
+{
+  "jesse_james": {
+    "yearsOfLife": "1847–1882",
+    "timelineYears": [
+      "05.09.1847",
+      "07.07.1873",
+      "07.09.1876",
+      "03.04.1882"
+    ],
+    "photos": [
+      "img1",
+      "img2",
+      "img3",
+      "img4",
+      "img5"
+    ],
+    "youtube": "https://youtu.be/2YBtm0wcH8I?si=o7jgeIJXK2Y4J3IW",
+    "map link": "https://maps.app.goo.gl/MmcBtDuvJX7F48ej7"
+  },
+  "john_dillinge": {
+    "yearsOfLife": "1903–1934",
+    "timelineYears": [
+      "22.06.1903",
+      "10.07.1933",
+      "03.03.1934",
+      "22.06.1934"
+    ],
+    "photos": [
+      "img1",
+      "img2",
+      "img3",
+      "img4",
+      "img5"
+    ],
+    "youtube": "https://youtu.be/PXRefDhKPRQ?si=9h7KARNcHnqlQdCw",
+    "map link": "https://maps.app.goo.gl/iRC4n6K94PBRew3P8"
+  },
+  "ali_kouchuk": {
+    "yearsOfLife": "1878–1913",
+    "timelineYears": [
+      "1878",
+      "1901",
+      "1909",
+      "1913"
+    ],
+    "photos": [
+      "img1",
+      "img2",
+      "img3",
+      "img4",
+      "img5"
+    ],
+    "youtube": "https://www.youtube.com/watch?app=desktop&v=T9pkzn2lHjc&pp=ygUJI9C80LPQu9C1",
+    "map link": "https://maps.app.goo.gl/aJ4uuquksfQD7vF67"
+  },
+  "netilmiş": {
+    "yearsOfLife": "1867–1921",
+    "timelineYears": [
+      "1867",
+      "1896",
+      "1898",
+      "1921"
+    ],
+    "photos": [
+      "img1",
+      "img2",
+      "img3",
+      "img4",
+      "img5"
+    ],
+    "youtube": "https://www.youtube.com/watch?app=desktop&v=T9pkzn2lHjc&pp=ygUJI9C80LPQu9C1",
+    "map link": "https://maps.app.goo.gl/3Wv8TN3M5E73Ed6g6"
+  },
+  "al_capone": {
+    "yearsOfLife": "1899–1947",
+    "timelineYears": [
+      "17.01.1899",
+      "14.02.1929",
+      "1931",
+      "25.01.1947"
+    ],
+    "photos": [
+      "img1",
+      "img2",
+      "img3",
+      "img4",
+      "img5"
+    ],
+    "youtube": "https://youtu.be/TgoepoduCGE?si=aL3jLy2cOW3A9Lv2",
+    "map link": "https://maps.app.goo.gl/JWfi6b7uUDktVMmi7"
+  },
+  "jacques_mesrine": {
+    "yearsOfLife": "1936–1979",
+    "timelineYears": [
+      "28.12.1936",
+      "1978",
+      "1978",
+      "02.11.1979"
+    ],
+    "photos": [
+      "img1",
+      "img2",
+      "img3",
+      "img4",
+      "img5"
+    ],
+    "youtube": "https://youtu.be/byimEGXKgkk?si=rVIcPB8J8bNhMBpH",
+    "map link": "https://maps.app.goo.gl/Qn6nubntY9z8gmTv9"
+  }
+}
