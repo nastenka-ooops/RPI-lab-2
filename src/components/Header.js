@@ -9,8 +9,19 @@ import {
     NavLink
 } from "react-bootstrap";
 import logo from './logo.png'
-class Header extends Component {
-    render() {
+import {useTranslation} from 'react-i18next';
+import i18n from "../i18n";
+import { Link } from "react-router-dom"
+import {render} from "react-dom";
+
+const Header = () => {
+    const {t} = useTranslation();
+    const changeLanguage = (language) => {
+        i18n.changeLanguage(language);
+    }
+
+    //render()
+    {
         return (
             <Navbar collapseOnSelect bg="dark" variant="dark">
                 <Container>
@@ -23,22 +34,22 @@ class Header extends Component {
                             alt="Logo"
                         />
                     </Navbar.Brand>
-                    <NavbarToggle aria-controls= "responsive-navbar-nav"/>
+                    <NavbarToggle aria-controls="responsive-navbar-nav"/>
                     <NavbarCollapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <NavLink href="/">Home</NavLink>
-                            <NavLink href="/">List of Thieves</NavLink>
+                            <NavLink as={Link} to="/">{t("header.title")}</NavLink>
+                            <NavLink as={Link} to="/Thieves">{t("header.thieves")}</NavLink>
                         </Nav>
                         <Nav>
-                            <NavDropdown  align="end" title={"Language"} id="dropdown-menu-align-end">
-                                <NavDropdown.Item>Русский</NavDropdown.Item>
-                                <NavDropdown.Item>English</NavDropdown.Item>
+                            <NavDropdown align="end" title={t("header.language")} id="dropdown-menu-align-end">
+                                <NavDropdown.Item onClick={() => changeLanguage("ru")}>Русский</NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => changeLanguage("en")}>English</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
                     </NavbarCollapse>
                 </Container>
             </Navbar>
-        );
+        )
     }
 }
 
