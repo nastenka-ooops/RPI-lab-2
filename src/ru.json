@@ -2,7 +2,7 @@
   "header":{
     "title" : "Главная",
   "thieves" : "Список грабителей",
-    "language":"язык"
+    "language":"Язык"
   },
  
   "main" :{
@@ -80,7 +80,24 @@
         "fourth date":"3 апреля 1882",
         "fourth date info":"Смерть. Джесси Джеймс был застрелен в своем доме в Сент-Джозефе, Миссури, Робертом Фордом, одним из его соратников, в надежде на вознаграждение. Его смерть стала заключительной главой в истории легендарного американского грабителя ",
       "youtube link":"https://youtu.be/2YBtm0wcH8I?si=o7jgeIJXK2Y4J3IW",
-      "map link":"https://maps.app.goo.gl/MmcBtDuvJX7F48ej7"
+      "map link":"https://maps.app.goo.gl/MmcBtDuvJX7F48ej7",
+        "photos": [
+          {
+            "photo": "./images/Jesse James/img1.jpg"
+          },
+          {
+            "photo": "./images/Jesse James/img2.jpg"
+          },
+          {
+            "photo": "./images/Jesse James/img3.jpg"
+          },
+          {
+            "photo": "./images/Jesse James/img4.jpg"
+          },
+          {
+            "photo": "./images/Jesse James/img5.jpg"
+          }
+        ]
         
       },
     {
@@ -99,7 +116,24 @@
         "fourth date":"22 июля 1934",
         "fourth date info":"Смерть. Джон Диллинджер был убит во время попытки ареста агентами Бюро расследований (FBI) во время просмотра кинотеатра Байоун в Чикаго. Его смерть положила конец периоду его преступной деятельности и оставила вопросы о причинах его популярности",
       "youtube link":"https://youtu.be/PXRefDhKPRQ?si=9h7KARNcHnqlQdCw",
-      "map link":"https://maps.app.goo.gl/iRC4n6K94PBRew3P8"
+      "map link":"https://maps.app.goo.gl/iRC4n6K94PBRew3P8",
+      "photos": [
+        {
+          "photo": "./images/John Dillinger/img1.jpg"
+        },
+        {
+          "photo": "./images/John Dillinger/img2.jpg"
+        },
+        {
+          "photo": "./images/John Dillinger/img3.jpg"
+        },
+        {
+          "photo": "./images/John Dillinger/img4.jpg"
+        },
+        {
+          "photo": "./images/John Dillinger/img5.jpg"
+        }
+      ]
       },
     {
         "name":"Али Коучукук",
@@ -117,7 +151,24 @@
         "fourth date":"1913",
         "fourth date info":"Смерть. Али Коучукук был убит полицией в Стамбуле, что поставило конец его преступной деятельности и закрыло главу в истории турецкой преступности",
       "youtube link":"https://www.youtube.com/watch?app=desktop&v=T9pkzn2lHjc&pp=ygUJI9C80LPQu9C1",
-      "map link":"https://maps.app.goo.gl/aJ4uuquksfQD7vF67"
+      "map link":"https://maps.app.goo.gl/aJ4uuquksfQD7vF67",
+      "photos": [
+        {
+          "photo": "./images/unknown/img1.jpg"
+        },
+        {
+          "photo": "./images/unknown/img2.jpg"
+        },
+        {
+          "photo": "./images/unknown/img3.jpg"
+        },
+        {
+          "photo": "./images/unknown/img4.jpg"
+        },
+        {
+          "photo": "./images/unknown/img5.jpg"
+        }
+      ]
       },{
         "name":"Нетильмиш ",
         "years":"1867–1921",
@@ -134,7 +185,24 @@
         "fourth date":"1921",
         "fourth date info":"Смерть. Нетильмиш был убит полицией в ходе столкновения в Анкаре. Его смерть положила конец периоду преступной активности и завершила историю одного из наиболее загадочных фигур в турецкой преступности",
       "youtube link":"https://www.youtube.com/watch?app=desktop&v=T9pkzn2lHjc&pp=ygUJI9C80LPQu9C1",
-      "map link":"https://maps.app.goo.gl/3Wv8TN3M5E73Ed6g6"
+      "map link":"https://maps.app.goo.gl/3Wv8TN3M5E73Ed6g6",
+      "photos": [
+        {
+          "photo": "./images/unknown/img1.jpg"
+        },
+        {
+          "photo": "./images/unknown/img2.jpg"
+        },
+        {
+          "photo": "./images/unknown/img3.jpg"
+        },
+        {
+          "photo": "./images/unknown/img4.jpg"
+        },
+        {
+          "photo": "./images/unknown/img5.jpg"
+        }
+      ]
       },
     {
         "name":"Аль Капоне",
@@ -152,7 +220,24 @@
         "fourth date":"25 января 1947",
         "fourth date info":"Смерть. Аль Капоне умер от осложнений, вызванных сифилисом, в своем доме в Майами. Его смерть помечает конец эпохи американской преступности, в которой он играл важную роль",
       "youtube link":"https://youtu.be/TgoepoduCGE?si=aL3jLy2cOW3A9Lv2",
-      "map link":"https://maps.app.goo.gl/JWfi6b7uUDktVMmi7"
+      "map link":"https://maps.app.goo.gl/JWfi6b7uUDktVMmi7",
+      "photos": [
+        {
+          "photo": "./images/Al Capone/img1.jpg"
+        },
+        {
+          "photo": "./images/Al Capone/img2.jpg"
+        },
+        {
+          "photo": "./images/Al Capone/img3.jpg"
+        },
+        {
+          "photo": "./images/Al Capone/img4.jpg"
+        },
+        {
+          "photo": "./images/Al Capone/img5.jpg"
+        }
+      ]
       },
     {
         "name":"Жак Месрин",
@@ -170,7 +255,24 @@
         "fourth date":"2 ноября 1979",
         "fourth date info":"Смерть. Жак Месрин был убит в Париже в ходе погони с полицией, завершив тем самым свою жизнь криминальных приключений. Его легенда живет в истории французской преступности",
       "youtube link":"https://youtu.be/byimEGXKgkk?si=rVIcPB8J8bNhMBpH",
-      "map link":"https://maps.app.goo.gl/Qn6nubntY9z8gmTv9"
+      "map link":"https://maps.app.goo.gl/Qn6nubntY9z8gmTv9",
+      "photos": [
+        {
+          "photo": "./images/Jacques Mesrine/img1.jpg"
+        },
+        {
+          "photo": "./images/Jacques Mesrine/img2.jpg"
+        },
+        {
+          "photo": "./images/Jacques Mesrine/img3.jpg"
+        },
+        {
+          "photo": "./images/Jacques Mesrine/img4.jpg"
+        },
+        {
+          "photo": "./images/Jacques Mesrine/img5.jpg"
+        }
+      ]
       }
   ]  
   
