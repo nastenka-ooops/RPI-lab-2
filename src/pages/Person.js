@@ -60,7 +60,7 @@ const Person = () => {
                 <h2 className="text-center mt-2 mb-2">{t("thief_info.video")}</h2>
             </Alert>
 
-            <div className="youtube-container my-3 text-center">
+            <div className="my-3 text-center">
                 <iframe width="700" height="400"
                         src={data[id]["youtube"]}
                         allowFullScreen
@@ -71,7 +71,7 @@ const Person = () => {
                 <h2 className="text-center mt-2 mb-2">{t("thief_info.map")}</h2>
             </Alert>
 
-            <div>
+            <div className="text-center">
                 <iframe
                     src={data[id]["map"]}
                     width="700" height="450" allowFullScreen="" loading="lazy">
