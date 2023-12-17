@@ -1,10 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {useTranslation} from "react-i18next";
 import data from "./triev.json";
 import {useParams} from "react-router-dom";
-import {Card, CardBody, CardImg, CardSubtitle, CardTitle, Container} from "react-bootstrap";
-import * as PropTypes from "prop-types";
-import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
+import {Card, CardBody, CardImg, Container} from "react-bootstrap";
+import {Timeline, TimelineItem} from 'vertical-timeline-component-for-react';
 
 const Person = () => {
     const {t} = useTranslation();
@@ -14,7 +13,7 @@ const Person = () => {
         <div className="container mx-auto font-mono">
             <Container className="d-flex justify-content-center mt-5">
                 <Card border="secondary" className="doer">
-                    <CardImg src={require(`../images/${id}`)}/>
+                    <CardImg src={`/images/${id}/img1.jpg`}/>
                     <CardBody>
                         <Card.Title className="text-center">{t(`${id}.name`)}</Card.Title>
                         <Card.Subtitle className="text-muted mb-3 text-center">{data[id]["yearsOfLife"]}</Card.Subtitle>
