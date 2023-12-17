@@ -15,7 +15,7 @@ const Person = () => {
         <div className="container mx-auto font-mono">
             <Container className="d-flex justify-content-center mt-5">
                 <Card border="secondary" className="doer">
-                    <CardImg className={"person-avatar"} src={`/images/${id}/img1.jpg`}/>
+                    <CardImg className={"person-avatar"} src={`./images/${id}/img1.jpg`}/>
                     <CardBody>
                         <Card.Title className="text-center" style={{fontSize: "40px"}}>{t(`${id}.name`)}</Card.Title>
                         <Card.Subtitle className="text-muted mb-3 text-center"
@@ -49,7 +49,7 @@ const Person = () => {
                     data[id]["photos"].map((text, index) =>
                         <Carousel.Item key={index} className="">
                             <div>
-                                <img className="d-block image" src={(`/images/${id}/img${index + 1}.jpg`)}/>
+                                <img className="d-block image" src={(`./images/${id}/img${index + 1}.jpg`)}/>
                             </div>
                         </Carousel.Item>
                     )

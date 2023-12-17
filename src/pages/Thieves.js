@@ -44,7 +44,7 @@ const Thieves = () => {
                                         to={`/person/${keys[translated.indexOf(elem)]}`}>
                             <div className="d-flex">
                                 <img className="w-25 my-auto"
-                                     src={`../images/${keys[translated.indexOf(elem)]}/img1.jpg`}/>
+                                     src={`./images/${keys[translated.indexOf(elem)]}/img1.jpg`}/>
                                 <div className="text mx-3">
                                     <p className="fw-bold" style={{fontSize: "30px"}}>{t(`${elem}`)}</p>
                                     <p className="fw-semibold" style={{fontSize: "25px"}}>{t(`${keys[translated.indexOf(elem)]}.years`)}</p>

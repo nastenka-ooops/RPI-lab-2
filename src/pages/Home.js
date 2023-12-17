@@ -20,7 +20,7 @@ const Home = () => {
             <Container className="d-flex justify-content-center mt-5">
                 <Card border="dark" className="doer">
                     <Card.Header className="text-center" style={{fontSize: "30px"}}>{t("main.day_thief")}</Card.Header>
-                    <Card.Img src={`/images/${id}/img1.jpg`}/>
+                    <Card.Img src={`./images/${id}/img1.jpg`}/>
                     <Card.Body style={{fontSize: "20px"}}>
                         <Card.Title style={{fontSize: "30px"}}>{t(`${id}.name`)}</Card.Title>
                         <Card.Subtitle className="text-muted mb-3" style={{fontSize: "25px"}}>
@@ -50,7 +50,7 @@ const Home = () => {
             <div className="d-flex justify-content-center mb-2">
                 <CardGroup className="mb-3 mx-2" variant="dark">
                     <Card className="mx-1" border="dark">
-                        <Card.Img src={`/images/developers/anasty.jpg`}/>
+                        <Card.Img src={`./images/developers/anasty.jpg`}/>
                         <Card.Title>
                             {t("main.dev_info.0.name")}
                         </Card.Title>
@@ -62,7 +62,7 @@ const Home = () => {
                         </Card.Text>
                     </Card>
                     <Card className="mx-1" border="dark">
-                        <Card.Img src={`/images/developers/dima.jpg`}/>
+                        <Card.Img src={`./images/developers/dima.jpg`}/>
                         <Card.Title>
                             {t("main.dev_info.1.name")}
                         </Card.Title>
@@ -74,7 +74,7 @@ const Home = () => {
                         </Card.Text>
                     </Card>
                     <Card className="mx-1" border="dark">
-                        <Card.Img src={`/images/developers/kate.jpg`}/>
+                        <Card.Img src={`./images/developers/kate.jpg`}/>
                         <Card.Title>
                             {t("main.dev_info.2.name")}
                         </Card.Title>
@@ -86,7 +86,7 @@ const Home = () => {
                         </Card.Text>
                     </Card>
                     <Card className="mx-1" border="dark">
-                        <Card.Img src={`/images/developers/mathew.jpg`}/>
+                        <Card.Img src={`./images/developers/mathew.jpg`}/>
                         <Card.Title>
                             {t("main.dev_info.3.name")}
                         </Card.Title>
