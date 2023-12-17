@@ -23,7 +23,7 @@ const Thieves = () => {
         <div className="container mx-auto my-3">
             <div>
                 <Alert variant="dark" >
-                    <h2 className="text-center mt-2 mb-2">{t("search.thievs_list")}</h2>
+                    <h2 className="text-center mt-2 mb-2">{t("search.thieves_list")}</h2>
                 </Alert>
             </div>
 
@@ -49,16 +49,16 @@ const Thieves = () => {
                                     <p className="fw-bold" style={{fontSize: "30px"}}>{t(`${elem}`)}</p>
                                     <p className="fw-semibold" style={{fontSize: "25px"}}>{t(`${keys[translated.indexOf(elem)]}.years`)}</p>
                                     <p className="fw-semibold" style={{fontSize: "20px"}}>
-                                        {t("main.day info.nickname")}
+                                        {t("main.day_info.nickname")}
                                         {": "}
                                         {t(`${keys[translated.indexOf(elem)]}.nickname`)}
                                     </p>
                                     <p className="fw-semibold" style={{fontSize: "20px"}}>
-                                        {t("main.day info.region")}
+                                        {t("main.day_info.region")}
                                         {": "}
                                         {t(`${keys[translated.indexOf(elem)]}.region`)}
                                     </p>
-                                    <p style={{fontSize: "20px"}}>{t(`${keys[translated.indexOf(elem)]}.long info`)}</p>
+                                    <p style={{fontSize: "20px"}}>{t(`${keys[translated.indexOf(elem)]}.long_info`)}</p>
                                 </div>
                             </div>
                         </ListGroup.Item>

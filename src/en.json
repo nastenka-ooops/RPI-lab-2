@@ -7,9 +7,9 @@
   },
   "main": {
     "welcome": "Welcome to the page with the most famous thieves",
-    "portal info": "This site contains information about the most popular criminals in history, as well as descriptions of their crimes",
-    "day thief": "Criminal of the Day",
-    "day info": {
+    "portal_info": "This site contains information about the most popular criminals in history, as well as descriptions of their crimes",
+    "day_thief": "Criminal of the Day",
+    "day_info": {
       "fio": "Criminal's Name",
       "years": "Years of Life",
       "info": "Information",
@@ -21,27 +21,27 @@
     "dev_info": [
       {
         "name": "Brutskaya Anastasia",
-        "telegram link": "@anasty_shmasty",
-        "github link": "https://github.com/nastenka-ooops"
+        "telegram_link": "@anasty_shmasty",
+        "github_link": "https://github.com/nastenka-ooops"
       },
       {
         "name": "Gatalsky Dmitry",
-        "telegram link": "@Kangaschanp",
-        "github link": "https://github.com/Kangaschan"
+        "telegram_link": "@Kangaschanp",
+        "github_link": "https://github.com/Kangaschan"
       },
       {
         "name": "Politykina Ekaterina",
-        "telegram link": "@katapalk",
-        "github link": "https://github.com/katePolitykina"
+        "telegram_link": "@katapalk",
+        "github_link": "https://github.com/katePolitykina"
       },
       {
         "name": "Karpekov Matvey",
-        "telegram link": "@mo_0tya",
-        "github link": "https://github.com/Mathew-bal"
+        "telegram_link": "@mo_0tya",
+        "github_link": "https://github.com/Mathew-bal"
       }
     ]
   },
-  "thief info": {
+  "thief_info": {
     "fio": "Name",
     "years": "Years of Life",
     "description": "Description",
@@ -53,18 +53,18 @@
   "search": {
     "Details": "More details",
     "Search": "Search",
-    "thievs_list": "List Of Thieves"
+    "thieves_list": "List Of Thieves"
   },
   "jesse_james": {
     "name": "Jesse James",
     "region": "USA",
     "nickname": "James-Younger Gang",
-    "short info": "Known for his involvement in train and bank robberies in the post-Civil War era",
-    "long info": "Jesse James became a legend of the American Wild West through a series of daring robberies. With a gang known as the James-Younger Gang, he targeted banks and trains, including the bank robbery in Northfield, Missouri, and the Glasgow Mail train robbery. His successful escapes after crimes and his ability to avoid arrest made him a national folk hero for some and a dangerous criminal for others.",
-    "first date info": "Jesse James was born in Clay County, Missouri. His early years were marked by turbulent events related to the Civil War, which deeply influenced his worldview and path into the criminal world.",
-    "second date info": "Glasgow Mail train robbery. This event made James a national figure and solidified his role as a legendary outlaw.",
-    "third date info": "Northfield bank robbery. The bold attack on the bank led to a clash with the police and James's escape but also strengthened his popularity among certain segments of the population.",
-    "fourth date info": "Death. Jesse James was shot in his home in St. Joseph, Missouri, by Robert Ford, one of his associates, in hopes of a reward. His death marked the final chapter in the story of the legendary American outlaw.",
+    "short_info": "Known for his involvement in train and bank robberies in the post-Civil War era",
+    "long_info": "Jesse James became a legend of the American Wild West through a series of daring robberies. With a gang known as the James-Younger Gang, he targeted banks and trains, including the bank robbery in Northfield, Missouri, and the Glasgow Mail train robbery. His successful escapes after crimes and his ability to avoid arrest made him a national folk hero for some and a dangerous criminal for others.",
+    "timeInfo0": "Jesse James was born in Clay County, Missouri. His early years were marked by turbulent events related to the Civil War, which deeply influenced his worldview and path into the criminal world.",
+    "timeInfo1": "Glasgow Mail train robbery. This event made James a national figure and solidified his role as a legendary outlaw.",
+    "timeInfo2": "Northfield bank robbery. The bold attack on the bank led to a clash with the police and James's escape but also strengthened his popularity among certain segments of the population.",
+    "timeInfo3": "Death. Jesse James was shot in his home in St. Joseph, Missouri, by Robert Ford, one of his associates, in hopes of a reward. His death marked the final chapter in the story of the legendary American outlaw.",
     "photos": [
       {
         "photo": "./images/Jesse James/img1.jpg"
@@ -87,12 +87,12 @@
     "name": "John Dillinger",
     "region": "USA",
     "nickname": "Public Enemy No. 1",
-    "short info": "Bank robber during the Great Depression, known for his bold and cunning heists",
-    "long info": "During the Great Depression, John Dillinger became one of the most dangerous bank robbers in the USA. He and his gang committed a series of robberies, including the raid on the Midland Bank in Indiana and the liberation of his accomplices from the prison in Crown Point, Indiana. His spectacular escapes and heists earned him the title of Public Enemy No. 1, and his ultimate capture by the FBI at the Biograph Theater in Chicago marked the end of his criminal career.",
-    "first date info": "Birth. John Dillinger was born in Indianapolis, Indiana. His early years were marked by economic difficulties, shaping his attitude towards the system and pushing him towards a criminal career.",
-    "second date info": "Midland Bank Robbery. This event was Dillinger's first robbery with his gang after escaping from prison. He used a car as a getaway vehicle, emphasizing a new era in crime.",
-    "third date info": "Escape from Crown Point Prison. Dillinger broke out of one of the most secure prisons, employing a bold plan and the support of his associates, showcasing his cunning and resourcefulness.",
-    "fourth date info": "Death. John Dillinger was killed during an attempt to arrest him by agents of the Federal Bureau of Investigation (FBI) while watching a movie at the Biograph Theater in Chicago. His death marked the end of his criminal activity and left questions about the reasons for his popularity.",
+    "short_info": "Bank robber during the Great Depression, known for his bold and cunning heists",
+    "long_info": "During the Great Depression, John Dillinger became one of the most dangerous bank robbers in the USA. He and his gang committed a series of robberies, including the raid on the Midland Bank in Indiana and the liberation of his accomplices from the prison in Crown Point, Indiana. His spectacular escapes and heists earned him the title of Public Enemy No. 1, and his ultimate capture by the FBI at the Biograph Theater in Chicago marked the end of his criminal career.",
+    "timeInfo0": "Birth. John Dillinger was born in Indianapolis, Indiana. His early years were marked by economic difficulties, shaping his attitude towards the system and pushing him towards a criminal career.",
+    "timeInfo1": "Midland Bank Robbery. This event was Dillinger's first robbery with his gang after escaping from prison. He used a car as a getaway vehicle, emphasizing a new era in crime.",
+    "timeInfo2": "Escape from Crown Point Prison. Dillinger broke out of one of the most secure prisons, employing a bold plan and the support of his associates, showcasing his cunning and resourcefulness.",
+    "timeInfo3": "Death. John Dillinger was killed during an attempt to arrest him by agents of the Federal Bureau of Investigation (FBI) while watching a movie at the Biograph Theater in Chicago. His death marked the end of his criminal activity and left questions about the reasons for his popularity.",
     "photos": [
       {
         "photo": "./images/John Dillinger/img1.jpg"
@@ -115,12 +115,12 @@
     "name": "Ali Kouchuk",
     "region": "Ottoman Empire (Turkey)",
     "nickname": "Little Ali",
-    "short info": "Famous Turkish robber operating in the early 20th century",
-    "long info": "Little Ali was known for his bold bank robberies in the Ottoman Empire in the early 20th century. He stood out for his bravery and the ability to disguise himself, and his criminal activities included robbing a bank in Istanbul and other daring attacks on financial institutions.",
-    "first date info": "Birth. Ali Kouchuk was born in Istanbul, Ottoman Empire. His early years were a period of social and political changes in Turkey, which deeply influenced his character and led him into a life of crime.",
-    "second date info": "Bank robbery in Istanbul. This criminal act made him known in Turkish society. He demonstrated his ability to deceive the police and evade arrest.",
-    "third date info": "Bank robbery in Istanbul. Another successful bank heist solidified Kouchuk's status as the leading robber in the region.",
-    "fourth date info": "Death. Ali Kouchuk was killed by the police in Istanbul, putting an end to his criminal activities and closing a chapter in the history of Turkish crime.",
+    "short_info": "Famous Turkish robber operating in the early 20th century",
+    "long_info": "Little Ali was known for his bold bank robberies in the Ottoman Empire in the early 20th century. He stood out for his bravery and the ability to disguise himself, and his criminal activities included robbing a bank in Istanbul and other daring attacks on financial institutions.",
+    "timeInfo0": "Birth. Ali Kouchuk was born in Istanbul, Ottoman Empire. His early years were a period of social and political changes in Turkey, which deeply influenced his character and led him into a life of crime.",
+    "timeInfo1": "Bank robbery in Istanbul. This criminal act made him known in Turkish society. He demonstrated his ability to deceive the police and evade arrest.",
+    "timeInfo2": "Bank robbery in Istanbul. Another successful bank heist solidified Kouchuk's status as the leading robber in the region.",
+    "timeInfo3": "Death. Ali Kouchuk was killed by the police in Istanbul, putting an end to his criminal activities and closing a chapter in the history of Turkish crime.",
     "photos": [
       {
         "photo": "./images/unknown/img1.jpg"
@@ -139,16 +139,16 @@
       }
     ]
   },
-  "Netilmiş": {
+  "netilmiş": {
     "name": "Netilmiş",
     "region": "Ottoman Empire (Turkey)",
     "nickname": "Dark Raven",
-    "short info": "Partner of Ali Kouchuk, also became a legendary robber in the history of Turkey",
-    "long info": "Ali Kouchuk's partner, Netilmiş, known as the Dark Raven, also became a legend in Turkish crime. Together with Ali Kouchuk, they carried out a series of robberies, causing panic among financial institutions and the population in the Ottoman Empire.",
-    "first date info": "Birth. Netilmiş, known as the Dark Raven, was born in the Ottoman Empire. His childhood was marked by strong social and political upheavals in the country, instilling in him audacity and determination.",
-    "second date info": "Bank robbery in Konya. This event made him known in criminal circles. Netilmiş demonstrated skillful disguise and the ability to carry out daring attacks.",
-    "third date info": "Train robbery in Konya. The audacious attack on the train solidified his reputation as one of the leading robbers in the region, acting with cunning and unpredictability.",
-    "fourth date info": "Death. Netilmiş was killed by the police during a confrontation in Ankara. His death marked the end of a period of criminal activity and concluded the story of one of the most mysterious figures in Turkish crime.",
+    "short_info": "Partner of Ali Kouchuk, also became a legendary robber in the history of Turkey",
+    "long_info": "Ali Kouchuk's partner, Netilmiş, known as the Dark Raven, also became a legend in Turkish crime. Together with Ali Kouchuk, they carried out a series of robberies, causing panic among financial institutions and the population in the Ottoman Empire.",
+    "timeInfo0": "Birth. Netilmiş, known as the Dark Raven, was born in the Ottoman Empire. His childhood was marked by strong social and political upheavals in the country, instilling in him audacity and determination.",
+    "timeInfo1": "Bank robbery in Konya. This event made him known in criminal circles. Netilmiş demonstrated skillful disguise and the ability to carry out daring attacks.",
+    "timeInfo2": "Train robbery in Konya. The audacious attack on the train solidified his reputation as one of the leading robbers in the region, acting with cunning and unpredictability.",
+    "timeInfo3": "Death. Netilmiş was killed by the police during a confrontation in Ankara. His death marked the end of a period of criminal activity and concluded the story of one of the most mysterious figures in Turkish crime.",
     "photos": [
       {
         "photo": "./images/unknown/img1.jpg"
@@ -171,12 +171,12 @@
     "name": "Al Capone",
     "region": "USA",
     "nickname": "Scarface",
-    "short info": "Famous American gangster and robber, leader of the Chicago Mafia during the Prohibition era",
-    "long info": "Al Capone, the legendary gangster, rose to prominence during the Prohibition era in Chicago. His criminal empire included organizing illegal gambling, smuggling alcohol, and a series of brutal murders. His most notorious act was the St. Valentine's Day Massacre in 1929, where his henchmen killed several members of a rival gang, leading to violence and chaos in the world of organized crime.",
-    "first date info": "Birth. Al Capone was born in New York to Italian immigrant parents. His childhood was challenging, and during the Prohibition, he became involved in organized crime.",
-    "second date info": "St. Valentine's Day Massacre. Al Capone became known for his brutality after the mass killing on St. Valentine's Day. This event solidified his status as one of the most influential gangsters of the time.",
-    "third date info": "Arrest and Conviction. Capone was arrested and convicted for tax evasion. This led to his imprisonment in Alcatraz, where he spent much of his later years.",
-    "fourth date info": "Death. Al Capone died of complications related to syphilis in his home in Miami. His death marked the end of an era in American crime in which he played a significant role.",
+    "short_info": "Famous American gangster and robber, leader of the Chicago Mafia during the Prohibition era",
+    "long_info": "Al Capone, the legendary gangster, rose to prominence during the Prohibition era in Chicago. His criminal empire included organizing illegal gambling, smuggling alcohol, and a series of brutal murders. His most notorious act was the St. Valentine's Day Massacre in 1929, where his henchmen killed several members of a rival gang, leading to violence and chaos in the world of organized crime.",
+    "timeInfo0": "Birth. Al Capone was born in New York to Italian immigrant parents. His childhood was challenging, and during the Prohibition, he became involved in organized crime.",
+    "timeInfo1": "St. Valentine's Day Massacre. Al Capone became known for his brutality after the mass killing on St. Valentine's Day. This event solidified his status as one of the most influential gangsters of the time.",
+    "timeInfo2": "Arrest and Conviction. Capone was arrested and convicted for tax evasion. This led to his imprisonment in Alcatraz, where he spent much of his later years.",
+    "timeInfo3": "Death. Al Capone died of complications related to syphilis in his home in Miami. His death marked the end of an era in American crime in which he played a significant role.",
     "photos": [
       {
         "photo": "./images/Al Capone/img1.jpg"
@@ -199,12 +199,12 @@
     "name": "Jacques Mesrine",
     "region": "France",
     "nickname": "Mesrine the Cannes Kid",
-    "short info": "French criminal known for daring robberies and an unstoppable character",
-    "long info": "French robber Jacques Mesrine, known as Mesrine the Cannes Kid, became famous for his daring robberies and prison escapes. His actions included bank robberies, kidnapping businessmen, and violent clashes with law enforcement. His charisma and unconventional methods of committing crimes made him a legend, but his criminal career ended with his death at the hands of the police.",
-    "first date info": "Birth. Jacques Mesrine was born in Paris, France, into a middle-class family. His youth was marked by poor academic performance and an early entry into the world of crime.",
-    "second date info": "Bank robbery in Aubervilliers. This was one of Mesrine's last robberies, leading to his arrest. His carefully planned heists and endless escapes made him a legend in the criminal world.",
-    "third date info": "Escape from La Santé Prison. Mesrine twice escaped from the high-security French prison La Santé, highlighting his resourcefulness and ability to avoid incarceration.",
-    "fourth date info": "Death. Jacques Mesrine was killed in Paris during a police chase, thus ending his life of criminal adventures. His legend lives on in the history of French crime.",
+    "short_info": "French criminal known for daring robberies and an unstoppable character",
+    "long_info": "French robber Jacques Mesrine, known as Mesrine the Cannes Kid, became famous for his daring robberies and prison escapes. His actions included bank robberies, kidnapping businessmen, and violent clashes with law enforcement. His charisma and unconventional methods of committing crimes made him a legend, but his criminal career ended with his death at the hands of the police.",
+    "timeInfo0": "Birth. Jacques Mesrine was born in Paris, France, into a middle-class family. His youth was marked by poor academic performance and an early entry into the world of crime.",
+    "timeInfo1": "Bank robbery in Aubervilliers. This was one of Mesrine's last robberies, leading to his arrest. His carefully planned heists and endless escapes made him a legend in the criminal world.",
+    "timeInfo2": "Escape from La Santé Prison. Mesrine twice escaped from the high-security French prison La Santé, highlighting his resourcefulness and ability to avoid incarceration.",
+    "timeInfo3": "Death. Jacques Mesrine was killed in Paris during a police chase, thus ending his life of criminal adventures. His legend lives on in the history of French crime.",
     "photos": [
       {
         "photo": "./images/Jacques Mesrine/img1.jpg"

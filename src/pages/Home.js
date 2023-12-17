@@ -14,31 +14,31 @@ const Home = () => {
             <Alert className="mt-3 mx-2" variant="dark">
                 <h2 className="text-center">{t("main.welcome")}</h2>
                 <hr/>
-                <p className="text-center">{t("main.portal info")}</p>
+                <p className="text-center">{t("main.portal_info")}</p>
             </Alert>
 
             <Container className="d-flex justify-content-center mt-5">
                 <Card border="dark" className="doer">
-                    <Card.Header className="text-center" style={{fontSize: "30px"}}>{t("main.day thief")}</Card.Header>
+                    <Card.Header className="text-center" style={{fontSize: "30px"}}>{t("main.day_thief")}</Card.Header>
                     <Card.Img src={`/images/${id}/img1.jpg`}/>
-                    <Card.Body>
+                    <Card.Body style={{fontSize: "20px"}}>
                         <Card.Title style={{fontSize: "30px"}}>{t(`${id}.name`)}</Card.Title>
                         <Card.Subtitle className="text-muted mb-3" style={{fontSize: "25px"}}>
                             {data[id]["yearsOfLife"]}</Card.Subtitle>
                         <Card.Text>
-                            {t("main.day info.nickname")}
+                            {t("main.day_info.nickname")}
                             {": "}
                             {t(`${id}.nickname`)}
                         </Card.Text>
                         <Card.Text>
-                            {t("main.day info.region")}
+                            {t("main.day_info.region")}
                             {": "}
                             {t(`${id}.region`)}
                         </Card.Text>
                         <Card.Text>
-                            {t(`${id}.short info`)}
+                            {t(`${id}.short_info`)}
                         </Card.Text>
-                        <Button variant="dark" as={Link} to={`/Person/${id}`}>{t("main.day info.go_to_page")}</Button>
+                        <Button variant="dark" as={Link} to={`/Person/${id}`}>{t("main.day_info.go_to_page")}</Button>
                     </Card.Body>
                 </Card>
             </Container>
@@ -55,9 +55,9 @@ const Home = () => {
                             {t("main.dev_info.0.name")}
                         </Card.Title>
                         <Card.Text>
-                            {t("main.dev_info.0.telegram link")}
+                            {t("main.dev_info.0.telegram_link")}
                             <Card.Text>
-                            {t("main.dev_info.0.github link")}
+                            {t("main.dev_info.0.github_link")}
                             </Card.Text>
                         </Card.Text>
                     </Card>
@@ -67,9 +67,9 @@ const Home = () => {
                             {t("main.dev_info.1.name")}
                         </Card.Title>
                         <Card.Text>
-                            {t("main.dev_info.1.telegram link")}
+                            {t("main.dev_info.1.telegram_link")}
                             <Card.Text>
-                                {t("main.dev_info.1.github link")}
+                                {t("main.dev_info.1.github_link")}
                             </Card.Text>
                         </Card.Text>
                     </Card>
@@ -79,9 +79,9 @@ const Home = () => {
                             {t("main.dev_info.2.name")}
                         </Card.Title>
                         <Card.Text>
-                            {t("main.dev_info.2.telegram link")}
+                            {t("main.dev_info.2.telegram_link")}
                             <Card.Text>
-                                {t("main.dev_info.2.github link")}
+                                {t("main.dev_info.2.github_link")}
                             </Card.Text>
                         </Card.Text>
                     </Card>
@@ -91,9 +91,9 @@ const Home = () => {
                             {t("main.dev_info.3.name")}
                         </Card.Title>
                         <Card.Text>
-                            {t("main.dev_info.3.telegram link")}
+                            {t("main.dev_info.3.telegram_link")}
                             <Card.Text>
-                                {t("main.dev_info.3.github link")}
+                                {t("main.dev_info.3.github_link")}
                             </Card.Text>
                         </Card.Text>
                     </Card>
