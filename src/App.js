@@ -10,7 +10,7 @@ import Home from "./pages/Home";
 const router = createBrowserRouter([
     {
         path: "/",
-        element: (<div><Header/><Home /></div>)
+        element: (<div><Header /><Home /></div>)
     },
    {
         path: "/Thieves",
@@ -25,6 +25,7 @@ const router = createBrowserRouter([
 function App() {
     return (
         <React.StrictMode>
+
             <RouterProvider router={router} />
         </React.StrictMode>
     );

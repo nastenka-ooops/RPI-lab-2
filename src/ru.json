@@ -18,7 +18,7 @@
       "nickname": "Прозвище"
     },
     "developers": "Pазработчики",
-    "dev info": [
+    "dev_info": [
       {
         "name": "Бруцкая Анастасия",
         "telegram link": "@anasty_shmasty",
@@ -53,7 +53,7 @@
   "search": {
     "Details": "Подробнее",
     "Search": "Поиск",
-    "thievs list": "Список грабителей"
+    "thievs_list": "Список грабителей"
   },
   "jesse_james": {
     "name": "Джесси Джеймс",
@@ -160,7 +160,7 @@
       }
     ]
   },
-  "Netilmiş": {
+  "netilmiş": {
     "name": "Нетильмиш",
     "years": "1867–1921",
     "region": "Османская империя (Турция)",

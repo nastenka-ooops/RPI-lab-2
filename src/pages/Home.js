@@ -1,63 +1,103 @@
 import React, {Component} from 'react';
 import {useTranslation} from "react-i18next";
-import {Alert, Button, Card, Container, ListGroup} from "react-bootstrap";
+import {Alert, Button, Card, CardGroup, Col, Container, ListGroup, Row} from "react-bootstrap";
 import data from "./triev.json";
 import {Link} from "react-router-dom";
-import Developer from "../components/Developer";
-import kate from "../images/kate.jpg"
 
 const Home = () => {
     const {t} = useTranslation();
-    const id = Object.keys(data)[(new Date().getDate()) % 5];
+    const id = Object.keys(data)[(new Date().getDate()) % 6];
     document.title = t("header.title")
     return (
         <div>
-        <Alert className="mt-3 mx-1" variant="dark">
-            <h2 className="text-center">{t("main.welcome")}</h2>
-            <p className="text-center">{t("main.portal info")}</p>
-        </Alert>
+            <Alert className="mt-3 mx-2" variant="dark">
+                <h2 className="text-center">{t("main.welcome")}</h2>
+                <hr/>
+                <p className="text-center">{t("main.portal info")}</p>
+            </Alert>
 
             <Container className="d-flex justify-content-center mt-5">
-                <Card border="secondary" className = "doer">
-                    <Card.Header className="text-center" style={{ fontSize: "30px" }}>{t("main.day thief")}</Card.Header>
-                    <Card.Img src={require(`../images/${id}/img1.jpg`)} />
+                <Card border="dark" className="doer">
+                    <Card.Header className="text-center" style={{fontSize: "30px"}}>{t("main.day thief")}</Card.Header>
+                    <Card.Img src={require(`../images/${id}/img1.jpg`)}/>
                     <Card.Body>
-                        <Card.Title>{t(`${id}.name`)}</Card.Title>
-                        <Card.Subtitle className="text-muted mb-3">{data[id]["yearsOfLife"]}</Card.Subtitle>
+                        <Card.Title style={{fontSize: "30px"}}>{t(`${id}.name`)}</Card.Title>
+                        <Card.Subtitle className="text-muted mb-3" style={{fontSize: "25px"}}>
+                            {data[id]["yearsOfLife"]}</Card.Subtitle>
+                        <Card.Text>
+                            {t("main.day info.nickname")}
+                            {": "}
+                            {t(`${id}.nickname`)}
+                        </Card.Text>
+                        <Card.Text>
+                            {t("main.day info.region")}
+                            {": "}
+                            {t(`${id}.region`)}
+                        </Card.Text>
                         <Card.Text>
                             {t(`${id}.short info`)}
                         </Card.Text>
-                        <Button variant="dark" as={Link} to={`/Person/${id}`}>{t("main.go_to_page")}</Button>
+                        <Button variant="dark" as={Link} to={`/Person/${id}`}>{t("main.day info.go_to_page")}</Button>
                     </Card.Body>
                 </Card>
             </Container>
-
-            <h2 className="text-center mt-5 mb-3">{t("main.developers")}</h2>
-            <div className="d-flex justify-content-center mb-2">
-                <ListGroup horizontal="xxl">
-                    <ListGroup.Item variant="dark">
-                        <Developer src={kate} name={t("main.dev info[0]")}
-                                   link="https://github.com/ChuritMaklan"
-                                   mail="cuklinmarat@gmail.com" />
-                    </ListGroup.Item>
-                    <ListGroup.Item variant="dark">
-                        <Developer src={kate} name={t("main.dev info[1]")}
-                                   link="https://github.com/AlexeyRyabov04"
-                                   mail="ryabovalexey04@gmail.com" />
-                    </ListGroup.Item>
-                    <ListGroup.Item variant="dark">
-                        <Developer src={kate} name={t("main.dev info[2]")}
-                                   link="https://github.com/dkrumkachev"
-                                   mail="dkrumkachev@gmail.com" />
-                    </ListGroup.Item>
-                        <ListGroup.Item variant="dark">
-                        <Developer src={kate} name={t("main.dev info[3]")}
-                                   link="https://github.com/dkrumkachev"
-                                   mail="dkrumkachev@gmail.com" />
-                    </ListGroup.Item>
-                </ListGroup>
+            <div>
+            <Alert className="mt-3 mx-2" variant="dark">
+                <h2 className="text-center mt-2 mb-2">{t("main.developers")}</h2>
+            </Alert>
             </div>
-
+            <div className="d-flex justify-content-center mb-2">
+                <CardGroup className="mb-3 mx-2" variant="dark">
+                    <Card className="mx-1" border="dark">
+                        <Card.Img src={require(`../images/developers/anasty.jpg`)}/>
+                        <Card.Title>
+                            {t("main.dev_info.0.name")}
+                        </Card.Title>
+                        <Card.Text>
+                            {t("main.dev_info.0.telegram link")}
+                            <Card.Text>
+                            {t("main.dev_info.0.github link")}
+                            </Card.Text>
+                        </Card.Text>
+                    </Card>
+                    <Card className="mx-1" border="dark">
+                        <Card.Img src={require(`../images/developers/dima.jpg`)}/>
+                        <Card.Title>
+                            {t("main.dev_info.1.name")}
+                        </Card.Title>
+                        <Card.Text>
+                            {t("main.dev_info.1.telegram link")}
+                            <Card.Text>
+                                {t("main.dev_info.1.github link")}
+                            </Card.Text>
+                        </Card.Text>
+                    </Card>
+                    <Card className="mx-1" border="dark">
+                        <Card.Img src={require(`../images/developers/kate.jpg`)}/>
+                        <Card.Title>
+                            {t("main.dev_info.2.name")}
+                        </Card.Title>
+                        <Card.Text>
+                            {t("main.dev_info.2.telegram link")}
+                            <Card.Text>
+                                {t("main.dev_info.2.github link")}
+                            </Card.Text>
+                        </Card.Text>
+                    </Card>
+                    <Card className="mx-1" border="dark">
+                        <Card.Img src={require(`../images/developers/mathew.jpg`)}/>
+                        <Card.Title>
+                            {t("main.dev_info.3.name")}
+                        </Card.Title>
+                        <Card.Text>
+                            {t("main.dev_info.3.telegram link")}
+                            <Card.Text>
+                                {t("main.dev_info.3.github link")}
+                            </Card.Text>
+                        </Card.Text>
+                    </Card>
+                </CardGroup>
+            </div>
         </div>
     )
 }
