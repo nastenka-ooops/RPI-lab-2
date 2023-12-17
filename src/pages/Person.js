@@ -61,7 +61,7 @@ const Person = () => {
             </Alert>
 
             <div className="my-3 text-center">
-                <iframe width="700" height="400"
+                <iframe width="100%" height="400"
                         src={data[id]["youtube"]}
                         allowFullScreen
                 />
@@ -74,7 +74,7 @@ const Person = () => {
             <div className="text-center">
                 <iframe
                     src={data[id]["map"]}
-                    width="700" height="450" allowFullScreen="" loading="lazy">
+                    width="100%" height="450" allowFullScreen="" loading="lazy">
                 </iframe>
             </div>
         </div>
